@@ -1,0 +1,46 @@
+.app {
+    display: flex;
+    gap: 1rem;
+
+}
+.droppable-area {
+    text-align: center;
+    padding: 2rem;
+    border: 2px dotted gray;
+}
+.components,
+.editor {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border: 2px solid gray;
+    flex-grow: 1;
+}
+.components__header,
+.components__body,
+.components__footer {
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.components__header {
+    background: rosybrown;
+    height: 5rem;
+}
+.components__body {
+    background: royalblue;
+    height: 10rem;
+}
+.components__footer {
+    background: darkgreen;
+    height: 5rem;
+}
+
+.editor {
+    flex-grow: 3;
+}
